@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Change Color Of The Screen</string>
+    <string name="red">Red</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+</resources>

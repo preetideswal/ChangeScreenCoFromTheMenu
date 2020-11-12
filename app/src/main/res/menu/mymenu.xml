@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:title="@string/red"
+        android:enabled="true"
+        app:menu="@layout/activity_main"
+        android:orderInCategory="0">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:enabled="true"
+        android:title="@string/blue"
+        app:menu="@layout/activity_main"
+        android:orderInCategory="1">
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:enabled="true"
+        android:title="@string/black"
+        app:menu="@layout/activity_main"
+        android:orderInCategory="2">
+    </item>
+
+</menu>
